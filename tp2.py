@@ -1,7 +1,7 @@
-numero = 101011
+numero = 101
 suma = 0
 
-#obtengo el indice del digito empezando desde la derecha
+#obtengo el indice del digito empezando desde
 for i in range(len(str(numero))):
     digito = numero % 10
     numero = numero // 10
